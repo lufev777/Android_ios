@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D51D7CF6D50E4DA54C7FCA54 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFDA1C099E55DBFC834E56F /* AudioToolbox.framework */; };
+		AC23634D332849A5DEE9AFFF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0943E53F59D10D7B99802DF9 /* AVFoundation.framework */; };
+		891C6843F87D5E211FEC06DE /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D442566AFD2AE8985EF8EB9F /* MediaPlayer.framework */; };
+		47D05C47978DC15015F28799 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12434D9393E1C40A27834D95 /* QuartzCore.framework */; };
+		163D651420AD1CA3C57B3EA4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F531AA6BF8597843377B82 /* CoreFoundation.framework */; };
+		8BFB1DA215E49CA495D86940 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B247A454D047B6E2800D909B /* MapKit.framework */; };
+		E43858ED2ED9A81CBBA97585 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E35A0FCD92E2A32387DD6501 /* WebKit.framework */; };
+		F8E74649BE38FDC19B042399 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AED8EF287C0F30D3A4FD0C8 /* CoreMedia.framework */; };
+		857011AD74511607BEE0BA64 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE08B71D59DD4161DD550EFC /* CoreVideo.framework */; };
+		094A3D723FB5DB38A7A5CAA5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C4701144F58511D19D4DCA /* MessageUI.framework */; };
+		857D94C23CE56B29F03D8A6B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A88345812DC30B93EBC7C3 /* AddressBook.framework */; };
+		63201DB172104733C69A9F12 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A46CC09771FCD943B08537E /* AddressBookUI.framework */; };
+		192C09A10AB887099C493548 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E826FDE75991450590EE5A /* SystemConfiguration.framework */; };
+		28466B1216C441FDCC986D66 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1E9A9B7E76959C4B5C34DB /* EventKit.framework */; };
+		529A2E061A1B875B462BEE1F /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82830B3842880A15C9D2E0E /* EventKitUI.framework */; };
+		574042C31AA7B50478DBA929 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EEFF930B7B9982DFA23322 /* CoreBluetooth.framework */; };
+		4DC78AE622C8B3DE07F32203 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2C7D95050B822B25E0632C /* CoreGraphics.framework */; };
+		39734876D8A5074D71595537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E49671DC5CA62AC675671C7 /* Foundation.framework */; };
+		8C5E8A0A9C585B768E216D18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2712F5CDF8B43721554BD4FD /* UIKit.framework */; };
+		665930FD7BC42CB323F3A527 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D44D78BD4C222B3EDDE41D /* ImageIO.framework */; };
+		9775F8645D391AD9214EE7D5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14BB521DD6FF8E51C31EA24 /* MobileCoreServices.framework */; };
+		C16E301C68ABBF33F845DF37 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CAAB54EF68B5D4FE8F44BD /* CoreText.framework */; };
+		839F60489201D201E173913D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E73E65AB0DD03CE168DA57D /* Security.framework */; };
+		776D0D8FAB2688582A95742C /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B91134E246E15A6699D02C /* libiconv.tbd */; };
+		56B74DD19238C910DD947FB9 /* libwd240vm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 445FC022127244ADDB47C047 /* libwd240vm.a */; };
+		522EA3AC17EAC75623708D77 /* libwd240obj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40EEF5AD1BC7E84D55BFA10B /* libwd240obj.a */; };
+		ADD088E6044D3307BA40A2E1 /* libwd240mat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 557D49073EA59D15CE8B2687 /* libwd240mat.a */; };
+		7C030D31ADFA780E2EC39A78 /* libwd240xml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7E4DA96E0319BFC53A733C /* libwd240xml.a */; };
+		DB82F0EE0702336C61ED2872 /* libwd240rtf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40651CC52BB139D99B7253AE /* libwd240rtf.a */; };
+		87E9226F0DC5DBD692225EB0 /* libwd240std.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7E9E0CE00CF5AE676AB508 /* libwd240std.a */; };
+		546937ADDA1204EC623586D5 /* libwd240com.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6851EFEA3CB45C885E86095 /* libwd240com.a */; };
+		844175533C2F994B7860FC0A /* libwd240pdf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D556A412BCEE9757FBB685E /* libwd240pdf.a */; };
+		4FD918523B944A0762E34BD9 /* libwd240zip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5558D7D3B858369A53DAD067 /* libwd240zip.a */; };
+		3014892B82EAD4FEBC859B70 /* libwd240pnt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EFF35AFE315CA05D11C247 /* libwd240pnt.a */; };
+		E3D452481D5E87CF1BDC2A42 /* libwd240core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1522D264C1E049BC1B5A8C08 /* libwd240core.a */; };
+		6198D61C51BADF27A47B44C9 /* libwd240mdl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6034DF8FB43FAE994B5730CE /* libwd240mdl.a */; };
+		C44055F6E13251CE60D61ECE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0CEBB65665A11C3C2381A1 /* main.m */; };
+		2B77607112ADEA6216884A38 /* WDAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBB32AE63340B023ABC569AD /* WDAppDelegate.mm */; };
+		04896F020E4C4F44AE6137F5 /* TEMPLATES in Resources */ = {isa = PBXBuildFile; fileRef = 6D2816745B04B15CC5A2C2B1 /* TEMPLATES */; };
+		FE6CF8194D71C71C53B9F451 /* Android_ios.wil in Resources */ = {isa = PBXBuildFile; fileRef = E1AE3ADAF7B7105331C20D7C /* Android_ios.wil */; };
+		087B306278A09C441E092C0E /* WDInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFEDAD113C8C4A70F0FB6533 /* WDInfo.plist */; };
+		38CB6FEC078EACF74B0D437F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D911A27E6A116B9CD82C7B19 /* LaunchScreen.storyboard */; };
+		10559F8E4FB9F38DE824473E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D4839A942B2C3746ED7DDF /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CFDA1C099E55DBFC834E56F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; };
+		0943E53F59D10D7B99802DF9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; };
+		D442566AFD2AE8985EF8EB9F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree = SDKROOT; };
+		12434D9393E1C40A27834D95 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; };
+		37F531AA6BF8597843377B82 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = "System/Library/Frameworks/CoreFoundation.framework"; sourceTree = SDKROOT; };
+		B247A454D047B6E2800D909B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		E35A0FCD92E2A32387DD6501 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = "System/Library/Frameworks/WebKit.framework"; sourceTree = SDKROOT; };
+		9AED8EF287C0F30D3A4FD0C8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = "System/Library/Frameworks/CoreMedia.framework"; sourceTree = SDKROOT; };
+		CE08B71D59DD4161DD550EFC /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = "System/Library/Frameworks/CoreVideo.framework"; sourceTree = SDKROOT; };
+		57C4701144F58511D19D4DCA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; };
+		63A88345812DC30B93EBC7C3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; };
+		0A46CC09771FCD943B08537E /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = "System/Library/Frameworks/AddressBookUI.framework"; sourceTree = SDKROOT; };
+		31E826FDE75991450590EE5A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; };
+		0C1E9A9B7E76959C4B5C34DB /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = "System/Library/Frameworks/EventKit.framework"; sourceTree = SDKROOT; };
+		E82830B3842880A15C9D2E0E /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = "System/Library/Frameworks/EventKitUI.framework"; sourceTree = SDKROOT; };
+		01EEFF930B7B9982DFA23322 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = "System/Library/Frameworks/CoreBluetooth.framework"; sourceTree = SDKROOT; };
+		DE2C7D95050B822B25E0632C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		3E49671DC5CA62AC675671C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		2712F5CDF8B43721554BD4FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		76D44D78BD4C222B3EDDE41D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; };
+		D14BB521DD6FF8E51C31EA24 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = "System/Library/Frameworks/MobileCoreServices.framework"; sourceTree = SDKROOT; };
+		D4CAAB54EF68B5D4FE8F44BD /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = "System/Library/Frameworks/CoreText.framework"; sourceTree = SDKROOT; };
+		6E73E65AB0DD03CE168DA57D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; };
+		D2B91134E246E15A6699D02C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = "usr/lib/libiconv.tbd"; sourceTree = SDKROOT; };
+		445FC022127244ADDB47C047 /* libwd240vm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd240vm.a; path = "lib/libwd240vm.a"; sourceTree = "<group>"; };
+		40EEF5AD1BC7E84D55BFA10B /* libwd240obj.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd240obj.a; path = "lib/libwd240obj.a"; sourceTree = "<group>"; };
+		557D49073EA59D15CE8B2687 /* libwd240mat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd240mat.a; path = "lib/libwd240mat.a"; sourceTree = "<group>"; };
+		4B7E4DA96E0319BFC53A733C /* libwd240xml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd240xml.a; path = "lib/libwd240xml.a"; sourceTree = "<group>"; };
+		40651CC52BB139D99B7253AE /* libwd240rtf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd240rtf.a; path = "lib/libwd240rtf.a"; sourceTree = "<group>"; };
+		0A7E9E0CE00CF5AE676AB508 /* libwd240std.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd240std.a; path = "lib/libwd240std.a"; sourceTree = "<group>"; };
+		E6851EFEA3CB45C885E86095 /* libwd240com.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd240com.a; path = "lib/libwd240com.a"; sourceTree = "<group>"; };
+		7D556A412BCEE9757FBB685E /* libwd240pdf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd240pdf.a; path = "lib/libwd240pdf.a"; sourceTree = "<group>"; };
+		5558D7D3B858369A53DAD067 /* libwd240zip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd240zip.a; path = "lib/libwd240zip.a"; sourceTree = "<group>"; };
+		A7EFF35AFE315CA05D11C247 /* libwd240pnt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd240pnt.a; path = "lib/libwd240pnt.a"; sourceTree = "<group>"; };
+		1522D264C1E049BC1B5A8C08 /* libwd240core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd240core.a; path = "lib/libwd240core.a"; sourceTree = "<group>"; };
+		6034DF8FB43FAE994B5730CE /* libwd240mdl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwd240mdl.a; path = "lib/libwd240mdl.a"; sourceTree = "<group>"; };
+		CB0CEBB65665A11C3C2381A1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF5F366E8295E895F7F8E72C /* WDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDAppDelegate.h; sourceTree = "<group>"; };
+		BBB32AE63340B023ABC569AD /* WDAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WDAppDelegate.mm; sourceTree = "<group>"; };
+		FFB63FD9B8774169B69202AB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		6D2816745B04B15CC5A2C2B1 /* TEMPLATES */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TEMPLATES; sourceTree = "<group>"; };
+		E1AE3ADAF7B7105331C20D7C /* Android_ios.wil */ = {isa = PBXFileReference; lastKnownFileType = file; path = Android_ios.wil; sourceTree = "<group>"; };
+		DFEDAD113C8C4A70F0FB6533 /* WDInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file; path = WDInfo.plist; sourceTree = "<group>"; };
+		D911A27E6A116B9CD82C7B19 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7D4839A942B2C3746ED7DDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC7FA0F2DCCE7B648063E7FC /* Android_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Android_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30C45B60D0575F805A5A33FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51D7CF6D50E4DA54C7FCA54 /* AudioToolbox.framework in Frameworks */,
+				AC23634D332849A5DEE9AFFF /* AVFoundation.framework in Frameworks */,
+				891C6843F87D5E211FEC06DE /* MediaPlayer.framework in Frameworks */,
+				47D05C47978DC15015F28799 /* QuartzCore.framework in Frameworks */,
+				163D651420AD1CA3C57B3EA4 /* CoreFoundation.framework in Frameworks */,
+				8BFB1DA215E49CA495D86940 /* MapKit.framework in Frameworks */,
+				E43858ED2ED9A81CBBA97585 /* WebKit.framework in Frameworks */,
+				F8E74649BE38FDC19B042399 /* CoreMedia.framework in Frameworks */,
+				857011AD74511607BEE0BA64 /* CoreVideo.framework in Frameworks */,
+				094A3D723FB5DB38A7A5CAA5 /* MessageUI.framework in Frameworks */,
+				857D94C23CE56B29F03D8A6B /* AddressBook.framework in Frameworks */,
+				63201DB172104733C69A9F12 /* AddressBookUI.framework in Frameworks */,
+				192C09A10AB887099C493548 /* SystemConfiguration.framework in Frameworks */,
+				28466B1216C441FDCC986D66 /* EventKit.framework in Frameworks */,
+				529A2E061A1B875B462BEE1F /* EventKitUI.framework in Frameworks */,
+				574042C31AA7B50478DBA929 /* CoreBluetooth.framework in Frameworks */,
+				4DC78AE622C8B3DE07F32203 /* CoreGraphics.framework in Frameworks */,
+				39734876D8A5074D71595537 /* Foundation.framework in Frameworks */,
+				8C5E8A0A9C585B768E216D18 /* UIKit.framework in Frameworks */,
+				665930FD7BC42CB323F3A527 /* ImageIO.framework in Frameworks */,
+				9775F8645D391AD9214EE7D5 /* MobileCoreServices.framework in Frameworks */,
+				C16E301C68ABBF33F845DF37 /* CoreText.framework in Frameworks */,
+				839F60489201D201E173913D /* Security.framework in Frameworks */,
+				776D0D8FAB2688582A95742C /* libiconv.tbd in Frameworks */,
+				56B74DD19238C910DD947FB9 /* libwd240vm.a in Frameworks */,
+				522EA3AC17EAC75623708D77 /* libwd240obj.a in Frameworks */,
+				ADD088E6044D3307BA40A2E1 /* libwd240mat.a in Frameworks */,
+				7C030D31ADFA780E2EC39A78 /* libwd240xml.a in Frameworks */,
+				DB82F0EE0702336C61ED2872 /* libwd240rtf.a in Frameworks */,
+				87E9226F0DC5DBD692225EB0 /* libwd240std.a in Frameworks */,
+				546937ADDA1204EC623586D5 /* libwd240com.a in Frameworks */,
+				844175533C2F994B7860FC0A /* libwd240pdf.a in Frameworks */,
+				4FD918523B944A0762E34BD9 /* libwd240zip.a in Frameworks */,
+				3014892B82EAD4FEBC859B70 /* libwd240pnt.a in Frameworks */,
+				E3D452481D5E87CF1BDC2A42 /* libwd240core.a in Frameworks */,
+				6198D61C51BADF27A47B44C9 /* libwd240mdl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B89865594C619AD3792B656 = {
+			isa = PBXGroup;
+			children = (
+				D9F0E1537ABF20E4FCFAA1FB /* Android_ios */,
+				26D993DE775E75FC2A8D3E5F /* Frameworks */,
+				67827246E100C3ABC874470B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9F0E1537ABF20E4FCFAA1FB /* Android_ios */ = {
+			isa = PBXGroup;
+			children = (
+				CB0CEBB65665A11C3C2381A1 /* main.m */,
+				BF5F366E8295E895F7F8E72C /* WDAppDelegate.h */,
+				BBB32AE63340B023ABC569AD /* WDAppDelegate.mm */,
+				FFB63FD9B8774169B69202AB /* Info.plist */,
+				6D2816745B04B15CC5A2C2B1 /* TEMPLATES */,
+				E1AE3ADAF7B7105331C20D7C /* Android_ios.wil */,
+				DFEDAD113C8C4A70F0FB6533 /* WDInfo.plist */,
+				D911A27E6A116B9CD82C7B19 /* LaunchScreen.storyboard */,
+				A7D4839A942B2C3746ED7DDF /* Images.xcassets */,
+			);
+			path = Android_ios;
+			name = Android_ios;
+			sourceTree = "<group>";
+		};
+		26D993DE775E75FC2A8D3E5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CFDA1C099E55DBFC834E56F /* AudioToolbox.framework */,
+				0943E53F59D10D7B99802DF9 /* AVFoundation.framework */,
+				D442566AFD2AE8985EF8EB9F /* MediaPlayer.framework */,
+				12434D9393E1C40A27834D95 /* QuartzCore.framework */,
+				37F531AA6BF8597843377B82 /* CoreFoundation.framework */,
+				B247A454D047B6E2800D909B /* MapKit.framework */,
+				E35A0FCD92E2A32387DD6501 /* WebKit.framework */,
+				9AED8EF287C0F30D3A4FD0C8 /* CoreMedia.framework */,
+				CE08B71D59DD4161DD550EFC /* CoreVideo.framework */,
+				57C4701144F58511D19D4DCA /* MessageUI.framework */,
+				63A88345812DC30B93EBC7C3 /* AddressBook.framework */,
+				0A46CC09771FCD943B08537E /* AddressBookUI.framework */,
+				31E826FDE75991450590EE5A /* SystemConfiguration.framework */,
+				0C1E9A9B7E76959C4B5C34DB /* EventKit.framework */,
+				E82830B3842880A15C9D2E0E /* EventKitUI.framework */,
+				01EEFF930B7B9982DFA23322 /* CoreBluetooth.framework */,
+				DE2C7D95050B822B25E0632C /* CoreGraphics.framework */,
+				3E49671DC5CA62AC675671C7 /* Foundation.framework */,
+				2712F5CDF8B43721554BD4FD /* UIKit.framework */,
+				76D44D78BD4C222B3EDDE41D /* ImageIO.framework */,
+				D14BB521DD6FF8E51C31EA24 /* MobileCoreServices.framework */,
+				D4CAAB54EF68B5D4FE8F44BD /* CoreText.framework */,
+				6E73E65AB0DD03CE168DA57D /* Security.framework */,
+				D2B91134E246E15A6699D02C /* libiconv.tbd */,
+				445FC022127244ADDB47C047 /* libwd240vm.a */,
+				40EEF5AD1BC7E84D55BFA10B /* libwd240obj.a */,
+				557D49073EA59D15CE8B2687 /* libwd240mat.a */,
+				4B7E4DA96E0319BFC53A733C /* libwd240xml.a */,
+				40651CC52BB139D99B7253AE /* libwd240rtf.a */,
+				0A7E9E0CE00CF5AE676AB508 /* libwd240std.a */,
+				E6851EFEA3CB45C885E86095 /* libwd240com.a */,
+				7D556A412BCEE9757FBB685E /* libwd240pdf.a */,
+				5558D7D3B858369A53DAD067 /* libwd240zip.a */,
+				A7EFF35AFE315CA05D11C247 /* libwd240pnt.a */,
+				1522D264C1E049BC1B5A8C08 /* libwd240core.a */,
+				6034DF8FB43FAE994B5730CE /* libwd240mdl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67827246E100C3ABC874470B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC7FA0F2DCCE7B648063E7FC /* Android_ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B23211EAFDFBE4CCCEDADE0C /* Android_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C470D23E3C85E6450632A9A /* Build configuration list for PBXNativeTarget "Android_ios" */;
+			buildPhases = (
+				B9D64D850460CB6B7C5E3EF5 /* Resources */,
+				CAB011596176B0FFB0A2FBBA /* Sources */,
+				30C45B60D0575F805A5A33FF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Android_ios;
+			productName = Android_ios;
+			productReference = AC7FA0F2DCCE7B648063E7FC /* Android_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9421F61A63F080F1A6039F86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					B23211EAFDFBE4CCCEDADE0C = {
+					};
+				};
+			};
+			buildConfigurationList = E9F27FA6E8BFC69E1F705E32 /* Build configuration list for PBXProject "Android_ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				Base,
+				"en-GB",
+			);
+			mainGroup = 9B89865594C619AD3792B656;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B23211EAFDFBE4CCCEDADE0C /* Android_ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9D64D850460CB6B7C5E3EF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04896F020E4C4F44AE6137F5 /* TEMPLATES in Resources */,
+				FE6CF8194D71C71C53B9F451 /* Android_ios.wil in Resources */,
+				087B306278A09C441E092C0E /* WDInfo.plist in Resources */,
+				38CB6FEC078EACF74B0D437F /* LaunchScreen.storyboard in Resources */,
+				10559F8E4FB9F38DE824473E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB011596176B0FFB0A2FBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C44055F6E13251CE60D61ECE /* main.m in Sources */,
+				2B77607112ADEA6216884A38 /* WDAppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4C493D7E53DBA1E029E28E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				ENABLE_TESTABILITY = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+			};
+			name = Debug;
+		};
+		1C7C932841C9F83D5AC9D948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+			};
+			name = Release;
+		};
+		E4D4ABB6C19FAD9FB45E8245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Android_ios\"";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Android_ios/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.androidios;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				WRAPPER_EXTENSION = app;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				DEFINES_MODULES = YES;
+			};
+			name = Debug;
+		};
+		3B75CCDA392C685493D55A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/lib\"";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Android_ios\"";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Android_ios/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.androidios;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				WRAPPER_EXTENSION = app;
+				COPY_PHASE_STRIP = YES;
+				VALIDATE_PRODUCT = YES;
+				DEFINES_MODULES = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F27FA6E8BFC69E1F705E32 /* Build configuration list for PBXProject "Android_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C493D7E53DBA1E029E28E5 /* Debug */,
+				1C7C932841C9F83D5AC9D948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C470D23E3C85E6450632A9A /* Build configuration list for PBXNativeTarget "Android_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D4ABB6C19FAD9FB45E8245 /* Debug */,
+				3B75CCDA392C685493D55A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9421F61A63F080F1A6039F86 /* Project object */;
+}
